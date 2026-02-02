@@ -55,6 +55,18 @@ header {
   }
 }
 
+div.name_logo {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  h1 {
+    font-family: "Volkhov", serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #222222;
+  }
+}
+
 button.sign {
   width: 160px;
   height: 49px;
@@ -270,6 +282,16 @@ section.fifth {
   }
 }
 
+/* footer */
+footer {
+  margin-top: 102px;
+  margin-bottom: 69px;
+
+  div.foot {
+    justify-content: center;
+  }
+}
+
 /* responsive */
 @media screen and (min-width: 1300px) {
   header {
@@ -369,5 +391,9 @@ section.fifth {
         margin-top: 25px;
       }
     }
+  }
+  footer {
+    margin-top: 115px;
+    margin-bottom: 66px;
   }
 }
