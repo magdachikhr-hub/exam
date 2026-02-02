@@ -201,6 +201,18 @@ section.third {
   }
 }
 
+/* section fourth */
+section.fourth {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 128px;
+
+  iframe {
+    width: 400px;
+    height: 231px;
+  }
+}
+
 /* responsive */
 @media screen and (min-width: 1300px) {
   header {
@@ -267,6 +279,13 @@ section.third {
       flex-direction: row;
       justify-content: center;
       gap: 74px;
+    }
+  }
+  section.fourth {
+    margin-bottom: 144px;
+    iframe {
+      width: 1074px;
+      height: 620px;
     }
   }
 }
